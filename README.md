@@ -1,2 +1,16 @@
-# Homework-of-python-course
-Homework of python coursehoHH
+# Python语言程序设计课程作业
+很经典的一个问题：使用pytorch实现mnist手写数字识别。
+<u>模型在测试集上的准确率是评判标准。</u>
+因此可以从以下角度来获取高准确率：
+
+- 调整结构（包括神经网络层、学习率等）
+- 在防止过拟合的前提下增加训练轮数
+
+`____.ipynb`是作业系统提供的，题目要求等信息在其中。
+
+`Untitled.ipynb`是新建的，来源于知乎文章https://zhuanlan.zhihu.com/p/544161254，使用了**残差神经网络**，效果良好。最终实现了在模型上99.54的准确率。
+
+`main.py`用于上传作业系统，实现题目要求。
+
+`model_train.py`也是训练模型使用的。
+
